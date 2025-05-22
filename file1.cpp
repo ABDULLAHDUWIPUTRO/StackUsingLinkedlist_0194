@@ -113,22 +113,22 @@ int main()
         case 3:
             if (!stack.isEmpty())
             {
-                stack.peek(); //get the value of the top element
+                stack.peek(); // get the value of the top element
             }
             else
             {
                 cout << "stack is empty. no top value." << endl;
             }
             break;
-            
-            case 4:
+
+        case 4:
             cout << "exiting program." << endl;
             break;
-            default:
+        default:
             cout << "invalid choice. try again." << endl;
             break;
         }
         cout << endl;
     }
     return 0;
-}
+};
