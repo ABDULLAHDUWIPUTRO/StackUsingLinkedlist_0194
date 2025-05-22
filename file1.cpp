@@ -69,3 +69,26 @@ public:
             cout << endl;
         } // return the value of the top node
     }
+
+    // isEmpty operation: check if the stack is empty
+    bool isEmpty()
+    {
+        return top == NULL; // return if the top pointer is NULL, inicating an empty stack
+    }
+};
+
+int main()
+{
+    stack stack;
+
+    int choice = 0;
+    int value;
+
+    while (choice != 5)
+    {
+    cout << "1. Push\n";
+    cout << "2. Pop\n";
+    cout << "3. Peek\n";
+    cout << "4. Exit\n";
+    cout << "Enter your choice: ";
+    cin >> choice;
