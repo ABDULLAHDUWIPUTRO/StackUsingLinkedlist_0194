@@ -115,4 +115,20 @@ int main()
             {
                 stack.peek(); //get the value of the top element
             }
+            else
+            {
+                cout << "stack is empty. no top value." << endl;
+            }
+            break;
             
+            case 4:
+            cout << "exiting program." << endl;
+            break;
+            default:
+            cout << "invalid choice. try again." << endl;
+            break;
+        }
+        cout << endl;
+    }
+    return 0;
+}
